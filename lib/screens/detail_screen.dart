@@ -277,10 +277,7 @@ class BookInfo extends StatelessWidget
               ),
               Text(
                 "Breathing",
-                style: Theme.of(context)
-                    .textTheme
-                    .display1
-                    .copyWith(fontWeight: FontWeight.bold),
+                style: Theme.of(context).textTheme.display1.copyWith(fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 5,

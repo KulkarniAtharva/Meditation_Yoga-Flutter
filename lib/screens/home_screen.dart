@@ -153,16 +153,13 @@ class HomeScreen extends StatelessWidget
                                       children: [
                                         Expanded(
                                           child: Column(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.end,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
+                                            mainAxisAlignment: MainAxisAlignment.end,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 "Dropping into the Present Moment",
                                                 style: TextStyle(
-                                                    fontWeight:
-                                                        FontWeight.bold),
+                                                    fontWeight: FontWeight.bold),
                                               ),
                                               Text(
                                                 "14 min",
@@ -200,10 +197,8 @@ class HomeScreen extends StatelessWidget
                                                 ],
                                               ),
                                               Align(
-                                                alignment:
-                                                    Alignment.bottomRight,
-                                                child: Text(
-                                                  "Next: Body Scan",
+                                                alignment: Alignment.bottomRight,
+                                                child: Text("Next: Body Scan",
                                                   style: TextStyle(
                                                     fontSize: 10,
                                                     color: kLightBlackColor,
@@ -264,8 +259,7 @@ class HomeScreen extends StatelessWidget
             left: 0,
             right: 0,
             child: Container(
-              padding:
-                  EdgeInsets.only(left: 24, top: 24, right: size.width * .35),
+              padding: EdgeInsets.only(left: 24, top: 24, right: size.width * .35),
               height: 195,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
@@ -275,8 +269,7 @@ class HomeScreen extends StatelessWidget
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    "Live a more expressive life with this connective practice.",
+                  Text("Live a more expressive life with this connective practice.",
                     style: TextStyle(
                       fontSize: 11,
                       color: kLightBlackColor,
@@ -285,12 +278,10 @@ class HomeScreen extends StatelessWidget
                   SizedBox(
                     height: 5,
                   ),
-                  Text(
-                    "Simple Meditation Ignite Creativity",
+                  Text("Simple Meditation Ignite Creativity",
                     style: Theme.of(context).textTheme.title,
                   ),
-                  Text(
-                    "Atharva Kulkarni",
+                  Text("Atharva Kulkarni",
                     style: TextStyle(
                       color: kLightBlackColor,
                     ),
@@ -324,8 +315,7 @@ class HomeScreen extends StatelessWidget
           Positioned(
             right: -27,
             top: -7,
-            child: Image.asset(
-              "images/mm4.png",
+            child: Image.asset("images/mm4.png",
               width: size.width * .40,
             ),
           ),
