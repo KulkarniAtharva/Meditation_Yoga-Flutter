@@ -14,8 +14,7 @@ class BookRating extends StatelessWidget
   Widget build(BuildContext context)
   {
     return Container(
-      padding:
-      EdgeInsets.symmetric(vertical: 8, horizontal: 6),
+      padding: EdgeInsets.symmetric(vertical: 8, horizontal: 6),
       decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(16),

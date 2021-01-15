@@ -42,8 +42,7 @@ class DetailsScreen extends StatelessWidget
                   ),
                 ),
                 Padding(
-                  padding:
-                      EdgeInsetsDirectional.only(top: size.height * .4 + 20),
+                  padding: EdgeInsetsDirectional.only(top: size.height * .4 + 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [

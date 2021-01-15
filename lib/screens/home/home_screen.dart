@@ -1,5 +1,5 @@
 import 'package:meditation_yoga/colorsfile.dart';
-import 'package:meditation_yoga/screens/detail_screen.dart';
+import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/detail/detail_screen.dart';
 import 'package:meditation_yoga/widget/book_rating.dart';
 import 'package:meditation_yoga/widget/reading_card_list.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget
   {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-      body: SingleChildScrollView(
+      body: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
