@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_yoga/colorsfile.dart';
-import 'package:meditation_yoga/widget/book_rating.dart';
-import 'package:meditation_yoga/widget/rounded_button.dart';
+import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/book_rating.dart';
+import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/rounded_button.dart';
 
 class DetailsScreen extends StatelessWidget
 {
