@@ -1,4 +1,6 @@
-# Meditation & Yoga - Flutter
+# <div align="center">Meditation & Yoga - Flutter</div>
+
+<BR><BR>
 
 
 ![medit](Screenshots/meditation_yoga.jpg)
