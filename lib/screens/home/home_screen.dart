@@ -1,9 +1,10 @@
 import 'package:meditation_yoga/colorsfile.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/detail/detail_screen.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/book_rating.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/reading_card_list.dart';
+
 import 'package:flutter/material.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/two_sided_rounded_button.dart';
+import 'package:meditation_yoga/screens/detail/detail_screen.dart';
+import 'package:meditation_yoga/screens/home/widget/book_rating.dart';
+import 'package:meditation_yoga/screens/home/widget/reading_card_list.dart';
+import 'package:meditation_yoga/screens/home/widget/two_sided_rounded_button.dart';
 
 class HomeScreen extends StatelessWidget
 {
@@ -16,7 +17,9 @@ class HomeScreen extends StatelessWidget
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
+            SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+            child: Container(
               width: double.infinity,
               decoration: BoxDecoration(
                 image: DecorationImage(
@@ -239,6 +242,7 @@ class HomeScreen extends StatelessWidget
                   ),
                 ],
               ),
+            ),
             ),
           ],
         ),

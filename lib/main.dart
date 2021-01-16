@@ -1,6 +1,6 @@
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/home_screen.dart';
+import 'package:meditation_yoga/screens/home/home_screen.dart';
+import 'package:meditation_yoga/screens/home/widget/rounded_button.dart';
 import 'package:meditation_yoga/screens/login/login_screen.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/rounded_button.dart';
 import 'package:flutter/material.dart';
 
 void main()
