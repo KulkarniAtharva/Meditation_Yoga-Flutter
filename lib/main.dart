@@ -1,5 +1,6 @@
 import 'package:meditation_yoga/screens/home/home_screen.dart';
 import 'package:meditation_yoga/screens/home/widget/rounded_button.dart';
+import 'package:meditation_yoga/screens/home2/home_screen2.dart';
 import 'package:meditation_yoga/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -71,7 +72,7 @@ class WelcomeScreen extends StatelessWidget
                     MaterialPageRoute(
                       builder: (context)
                       {
-                        return HomeScreen();
+                        return HomeScreen2();
                       },
                     ),
                   );
