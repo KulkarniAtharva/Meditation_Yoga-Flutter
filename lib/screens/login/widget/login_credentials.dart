@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_yoga/colorsfile.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/home_screen.dart';
 import 'package:meditation_yoga/main.dart';
 
 class LoginCredentials extends StatelessWidget
