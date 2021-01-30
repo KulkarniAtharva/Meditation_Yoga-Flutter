@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_yoga/colorsfile.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/book_rating.dart';
-import 'file:///D:/AndroidStudioProjects/meditation_yoga/lib/screens/home/widget/two_sided_rounded_button.dart';
+import 'package:meditation_yoga/screens/home/widget/book_rating.dart';
+import 'package:meditation_yoga/screens/home/widget/two_sided_rounded_button.dart';
 
 class ReadingListCard extends StatelessWidget
 {
