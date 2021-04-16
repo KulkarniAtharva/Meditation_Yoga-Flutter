@@ -1,10 +1,14 @@
-# Meditation & Yoga - Flutter
+# 🏋🏼 Meditation & Yoga - Flutter  💪
  
 <BR><BR>
 
 
 ![medit](Screenshots/meditation_yoga.jpg)
 
-## Application
+## 🧘🏼 Application
 
-![medit](Screenshots/appgif.gif)
+<img src="Screenshots/appgif.gif"  width=250/>
+
+## 📸 Screenshots
+
+
