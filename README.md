@@ -1,4 +1,4 @@
-# <div align="center">Meditation & Yoga - Flutter</div>
+# Meditation & Yoga - Flutter
  
 <BR><BR>
 
