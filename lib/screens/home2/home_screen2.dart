@@ -7,6 +7,7 @@ import 'package:meditation_yoga/screens/home/home_screen.dart';
 import 'package:meditation_yoga/screens/home2/widget/courses.dart';
 import 'package:meditation_yoga/screens/home2/widget/custom_app_bar.dart';
 import 'package:meditation_yoga/screens/home2/widget/diff_styles.dart';
+import 'package:meditation_yoga/screens/screen4/screen4.dart';
 
 class HomeScreen2 extends StatefulWidget
 {
@@ -17,7 +18,7 @@ class HomeScreen2 extends StatefulWidget
 class _HomeScreenState extends State<HomeScreen2>
 {
   int selectedIconIndex = 2;
-  final List<Widget> _children = [HomeScreen(),DetailsScreen(),Home3()];
+  final List<Widget> _children = [HomeScreen(),DetailsScreen(),Home3(),Screen4()];
 
   @override
   Widget build(BuildContext context)

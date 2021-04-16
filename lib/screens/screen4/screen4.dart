@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meditation_yoga/colorsfile.dart';
 import 'package:meditation_yoga/screens/screen4/widget/search_bar.dart';
 
-class DetailsScreen extends StatelessWidget {
+class Screen4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
