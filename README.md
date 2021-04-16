@@ -7,7 +7,7 @@
 
 ## Application
 
-![medit](Screenshots/appgif.gif)
+<img src="Screenshots/appgif.gif"  width=250/>
 
 ## 📸 Screenshots
 
