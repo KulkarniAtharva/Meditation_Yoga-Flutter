@@ -9,6 +9,6 @@
 
 ![medit](Screenshots/appgif.gif)
 
-## Screenshots
+## 📸 Screenshots
 
 
