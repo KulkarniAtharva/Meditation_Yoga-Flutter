@@ -17,7 +17,7 @@ class Screen4 extends StatelessWidget {
             decoration: BoxDecoration(
               color: kBlueLightColor,
               image: DecorationImage(
-                image: AssetImage("assets/images/meditation_bg.png"),
+                image: AssetImage("images/meditation_bg.png"),
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -113,7 +113,7 @@ class Screen4 extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           SvgPicture.asset(
-                            "assets/icons/Meditation_women_small.svg",
+                            "images/Meditation_women_small.svg",
                           ),
                           SizedBox(width: 20),
                           Expanded(
@@ -131,7 +131,7 @@ class Screen4 extends StatelessWidget {
                           ),
                           Padding(
                             padding: EdgeInsets.all(10),
-                            child: SvgPicture.asset("assets/icons/Lock.svg"),
+                            child: SvgPicture.asset("images/Lock.svg"),
                           ),
                         ],
                       ),
