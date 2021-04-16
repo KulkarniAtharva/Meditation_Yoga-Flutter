@@ -1,4 +1,4 @@
-# Meditation & Yoga - Flutter
+# 🏋🏼 Meditation & Yoga - Flutter  💪
  
 <BR><BR>
 
