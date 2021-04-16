@@ -5,7 +5,7 @@
 
 ![medit](Screenshots/meditation_yoga.jpg)
 
-## Application
+## 🧘🏼 Application
 
 <img src="Screenshots/appgif.gif"  width=250/>
 
