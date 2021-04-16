@@ -46,7 +46,7 @@ class Screen5 extends StatelessWidget
                     ),
                   ),
                   Text(
-                    "Good Mornign \nShishir",
+                    "Good Morning \nAtharva",
                     style: Theme.of(context)
                         .textTheme
                         .display1
@@ -73,10 +73,12 @@ class Screen5 extends StatelessWidget
                         CategoryCard(
                           title: "Meditation",
                           svgSrc: "images/Meditation.svg",
-                          press: () {
+                          press: ()
+                          {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) {
+                              MaterialPageRoute(builder: (context)
+                              {
                                 return Screen4();
                               }),
                             );
